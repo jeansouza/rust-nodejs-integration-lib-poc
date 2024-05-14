@@ -1,0 +1,13 @@
+{
+  "package": "rust-nodejs-integration-lib-poc",
+  "devDependencies": {
+    "@napi-rs/cli": "2.18.3"
+  },
+  "napi": {
+    "name": "lib"
+  },
+  "scripts": {
+    "build": "napi build --release",
+    "build:debug": "napi build"
+  }
+}
